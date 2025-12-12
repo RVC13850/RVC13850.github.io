@@ -383,6 +383,15 @@ export default function Portfolio() {
                 <div className="space-y-3">
                   <h4 className="text-lg font-semibold text-purple-400 mb-3">Connect</h4>
                   <div className="flex flex-wrap gap-3">
+                     <a
+                      href="https://linkedin.com/in/rithwikchittineni"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-gray-800/50 rounded-lg border border-gray-700 hover:border-blue-500 hover:bg-gray-700/50 transition-all duration-300 group"
+                    >
+                      <Linkedin className="w-5 h-5 group-hover:text-blue-400 transition-colors" />
+                      <span className="text-sm">LinkedIn</span>
+                    </a>
                     <a
                       href="https://github.com/RVC13850"
                       target="_blank"
@@ -391,15 +400,6 @@ export default function Portfolio() {
                     >
                       <Github className="w-5 h-5 group-hover:text-blue-400 transition-colors" />
                       <span className="text-sm">GitHub</span>
-                    </a>
-                    <a
-                      href="https://linkedin.com/in/rithwikchittineni"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-gray-800/50 rounded-lg border border-gray-700 hover:border-blue-500 hover:bg-gray-700/50 transition-all duration-300 group"
-                    >
-                      <Linkedin className="w-5 h-5 group-hover:text-blue-400 transition-colors" />
-                      <span className="text-sm">LinkedIn</span>
                     </a>
                     <a
                       href="mailto:rithwikchittineni@gmail.com"
@@ -591,9 +591,9 @@ export default function Portfolio() {
                 
                 <div className="space-y-6">
                   {[
-                    { icon: <Mail />, label: 'Email', href: 'mailto:rithwikchittineni@gmail.com' },
+                    { icon: <Linkedin />, label: 'Linkedin', href: 'https://linkedin.com/in/rithwikchittineni' },
                     { icon: <Github />, label: 'Github', href: 'https://github.com/RVC13850' },
-                    { icon: <Linkedin />, label: 'Linkedin', href: 'https://linkedin.com/in/rithwikchittineni' }
+                    { icon: <Mail />, label: 'Email', href: 'mailto:rithwikchittineni@gmail.com' }
                   ].map((contact, idx) => (
                     <a
                       key={idx}
