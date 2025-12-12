@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.73621e72.css",
-    "main.js": "/my-portfolio/static/js/main.5ba5bf16.js",
-    "static/media/utd-logo.png": "/my-portfolio/static/media/utd-logo.3ea537a87b8a134a78f6.png",
-    "index.html": "/my-portfolio/index.html",
-    "main.73621e72.css.map": "/my-portfolio/static/css/main.73621e72.css.map",
-    "main.5ba5bf16.js.map": "/my-portfolio/static/js/main.5ba5bf16.js.map"
+    "main.css": "/static/css/main.73621e72.css",
+    "main.js": "/static/js/main.33f7f801.js",
+    "static/media/utd-logo.png": "/static/media/utd-logo.3ea537a87b8a134a78f6.png",
+    "index.html": "/index.html",
+    "main.73621e72.css.map": "/static/css/main.73621e72.css.map",
+    "main.33f7f801.js.map": "/static/js/main.33f7f801.js.map"
   },
   "entrypoints": [
     "static/css/main.73621e72.css",
-    "static/js/main.5ba5bf16.js"
+    "static/js/main.33f7f801.js"
   ]
 }
