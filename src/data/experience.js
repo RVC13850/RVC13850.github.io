@@ -5,7 +5,7 @@ export const experience = [
       company: "American Airlines",
       location: "Fort Worth, TX",
       period: "June 2025 – Aug 2025",
-      description: "Developed and deployed internal automation tools to streamline data validation, reporting, and system monitoring, reducing manual effort by over 50%. Built and maintained backend services using Python, Flask, and PostgreSQL. Integrated CI/CD pipelines with GitHub Actions and Docker, accelerating development cycles and improving code reliability.",
+      description: "Built AI agents to autonomously monitor data quality, detect anomalies, and flag issues in real time, significantly reducing manual oversight across data pipelines. Developed and deployed internal automation tools for data monitoring and governance workflows, reducing manual effort by over 50%. Built and maintained backend services using Python, FastAPI, and PostgreSQL, enabling efficient data access and workflow automation. Integrated CI/CD pipelines with GitHub Actions and Docker, accelerating development cycles and improving code reliability.",
       icon: <Rocket className="w-6 h-6" />
     },
     {
