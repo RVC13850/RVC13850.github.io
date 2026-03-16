@@ -2,7 +2,7 @@ export const projects = [
     {
       title: "Newisfy",
       description: "Serving as Data Scientist on a YouTube intelligence platform, building an end-to-end NLP pipeline including transcript chunking, vector embeddings, and semantic search to surface personalized video recommendations at scale. Performed trend analysis on YouTube engagement data using Pandas and NumPy, identifying key content consumption patterns to drive ranking improvements and topic discovery. Integrated embedding models with a vector database for efficient similarity search, enabling fast and accurate video content retrieval across a large and growing corpus.",
-      tech: ["Python", "FastAPI ", "React", "AWS", "OpenAI Embeddings", "Qdrant"],
+      tech: ["Python", "FastAPI", "React", "AWS", "OpenAI Embeddings", "Qdrant"],
       github: "https://github.com/RVC13850/placeholders-backend",
       color: "from-blue-500 to-cyan-500",
       gradient: "linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%)"
@@ -14,6 +14,14 @@ export const projects = [
       github: "https://github.com/RVC13850/DocuVoice",
       color: "from-blue-500 to-cyan-500",
       gradient: "linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%)"
+    },
+    {
+      title: "Vulnerability Research & Exploit Development",
+      description: "Developed low-level memory exploits using pwntools to bypass security mitigations, demonstrating a deep understanding of memory management and system security. Engineered custom payloads to successfully exploit heap overflows, format string vulnerabilities, and Use-After-Free (UAF) vulnerabilities within C-based binaries.",
+      tech: ["C", "C++", "Assembly", "pwntools"],
+      github: "https://github.com/RVC13850",
+      color: "from-red-500 to-orange-500",
+      gradient: "linear-gradient(135deg, #ef4444 0%, #f97316 100%)"
     },
     {
       title: "Wellness Center Coordination App",

@@ -28,7 +28,7 @@ export default function AboutCard() {
             <h4 className="text-sm font-semibold text-blue-400 mb-1">Education</h4>
             <p className="text-white font-semibold text-base">The University of Texas at Dallas</p>
             <p className="text-gray-400 text-sm">B.S. in Computer Science</p>
-            <p className="text-gray-500 text-xs mt-0.5">August 2023 – December 2026</p>
+            <p className="text-gray-500 text-xs mt-0.5">August 2023 – May 2026</p>
           </div>
         </div>
       </div>
